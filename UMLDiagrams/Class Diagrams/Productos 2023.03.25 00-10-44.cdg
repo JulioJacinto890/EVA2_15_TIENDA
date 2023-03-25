@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Productos">
+  <ClassDiagramComponents>
+    <Class name="Computadora" package="Productos" visibility="public" isFinal="true" xPosition="114.0" yPosition="161.0">
+      <Fields>
+        <Field name="tama" type="double" visibility="private"/>
+        <Field name="memoria" type="int" visibility="private"/>
+        <Field name="procesador" type="String" visibility="private"/>
+        <Field name="disco" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="double" name="tama"/>
+          <Argument type="int" name="memoria"/>
+          <Argument type="String" name="procesador"/>
+          <Argument type="String" name="disco"/>
+          <Argument type="String" name="fabricante"/>
+          <Argument type="String" name="modelo"/>
+          <Argument type="int" name="garantia"/>
+          <Argument type="double" name="precio"/>
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="unidad"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="setTama" returnType="void" visibility="public">
+          <Argument type="double" name="tama"/>
+        </Method>
+        <Method name="getTama" returnType="double" visibility="public"/>
+        <Method name="getMemoria" returnType="int" visibility="public"/>
+        <Method name="setMemoria" returnType="void" visibility="public">
+          <Argument type="int" name="memoria"/>
+        </Method>
+        <Method name="getProcesador" returnType="String" visibility="public"/>
+        <Method name="setProcesador" returnType="void" visibility="public">
+          <Argument type="String" name="procesador"/>
+        </Method>
+        <Method name="getDisco" returnType="String" visibility="public"/>
+        <Method name="setDisco" returnType="void" visibility="public">
+          <Argument type="String" name="disco"/>
+        </Method>
+        <Method name="precioVenta" returnType="double" visibility="public">
+          <Argument type="int" name="cant"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
